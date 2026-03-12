@@ -4,7 +4,7 @@
 
 ## Overview
 
-- **Route:** Train from Sapporo to Shibetsu, then ride back to Sapporo
+- **Route:** Train from Sapporo to Asahikawa, then ride east through Daisetsuzan and along the Okhotsk coast, returning to Sapporo
 - **Mode:** Self-supported cycle touring (no camping)
 - **Season:** Late June through Early July
 - **Accommodation:** Mix of cheap guest houses (long riding days) and onsen hotels (shorter ~35-40 mile days to allow early check-in and relaxation)
@@ -16,11 +16,21 @@
 
 ### Starting Point
 
-**Train from Sapporo to Shibetsu** — early Tuesday morning. Ride south/west back toward Sapporo over the following days.
+**Train from Sapporo to Asahikawa** — early Tuesday morning. Ride east through Daisetsuzan National Park, then north/east toward the Okhotsk coast, eventually looping back to Sapporo.
 
-### Route to be planned
+### Confirmed Route
 
-Starting from Shibetsu, riding 35-50 miles on Day 1, then a mix of:
+| Day | From | To | Miles | Climbing | Notes |
+|-----|------|----|-------|----------|-------|
+| 1 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | ⬆️ 2,461ft ⬇️ 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
+| 2 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | ⬆️ 1,463ft ⬇️ 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
+| 3+ | Shiobetsu Tsurutsuru Onsen | TBD — heading north/east toward Okhotsk coast | — | — | Planning in progress |
+
+
+
+### Route planning notes
+
+Daily distance mix:
 - **35-40 mile days** when staying at onsen hotels (early check-in, relaxation)
 - **50-70 mile days** when staying at cheap guest houses (flat/rolling terrain)
 - **45-50 mile days** in mountainous sections with significant climbing

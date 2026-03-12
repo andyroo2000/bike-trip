@@ -1,0 +1,46 @@
+interface RouteMapProps {
+  day: number;
+  from: string;
+  to: string;
+  mapsUrl: string;
+}
+
+export default function RouteMap({ day, from, to, mapsUrl }: RouteMapProps) {
+  const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY;
+  const embedUrl = `https://www.google.com/maps/embed/v1/directions?key=${apiKey}&origin=${encodeURIComponent(from)}&destination=${encodeURIComponent(to)}&mode=bicycling`;
+
+  return (
+    <div className="not-prose my-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+      <div className="bg-gray-50 px-4 py-2 border-b border-gray-200">
+        <span className="text-sm font-medium text-gray-700">
+          Day {day}: {from} → {to}
+        </span>
+      </div>
+      <iframe
+        src={embedUrl}
+        width="100%"
+        height="350"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title={`Day ${day} route: ${from} to ${to}`}
+      />
+      <div className="bg-gray-50 px-4 py-2 border-t border-gray-200">
+        <a
+          href={mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1"
+        >
+          Open in Google Maps
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  );
+}

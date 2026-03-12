@@ -1,10 +1,12 @@
+import RouteMap from '../components/RouteMap.tsx';
+
 # Hokkaido Bike Tour — Planning Reference
 
 ---
 
 ## Overview
 
-- **Route:** Train from Sapporo to Shibetsu, then ride back to Sapporo
+- **Route:** Train from Sapporo to Asahikawa, then ride east through Daisetsuzan and along the Okhotsk coast, returning to Sapporo
 - **Mode:** Self-supported cycle touring (no camping)
 - **Season:** Late June through Early July
 - **Accommodation:** Mix of cheap guest houses (long riding days) and onsen hotels (shorter ~35-40 mile days to allow early check-in and relaxation)
@@ -16,11 +18,35 @@
 
 ### Starting Point
 
-**Train from Sapporo to Shibetsu** — early Tuesday morning. Ride south/west back toward Sapporo over the following days.
+**Train from Sapporo to Asahikawa** — early Tuesday morning. Ride east through Daisetsuzan National Park, then north/east toward the Okhotsk coast, eventually looping back to Sapporo.
 
-### Route to be planned
+### Confirmed Route
 
-Starting from Shibetsu, riding 35-50 miles on Day 1, then a mix of:
+| Day | From | To | Miles | Climbing | Notes |
+|-----|------|----|-------|----------|-------|
+| 1 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | ⬆️ 2,461ft ⬇️ 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
+| 2 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | ⬆️ 1,463ft ⬇️ 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
+| 3+ | Shiobetsu Tsurutsuru Onsen | TBD — heading north/east toward Okhotsk coast | — | — | Planning in progress |
+
+<RouteMap
+  client:load
+  day={1}
+  from="Asahikawa Station, Hokkaido, Japan"
+  to="Sounkyo Kankou Hotel, Kamikawa, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Asahikawa+Station,+8-ch%C5%8Dme-3+Miyashitad%C5%8Dri,+Asahikawa,+Hokkaido+070-0030,+Japan/Sounkyo+Kankou+Hotel,+%E6%B8%A9%E6%B3%89+Sounkyo,+Kamikawa,+Kamikawa+District,+Hokkaido+078-1797,+Japan/@43.507909,143.0147524,9.29z/data=!3m1!5s0x5f0d2fbd552d8761:0xaeb701d34a724482!4m15!4m14!1m5!1m1!1s0x5f0ce6109561599b:0x61677521fa7580d2!2m2!1d142.3585105!2d43.7627619!1m5!1m1!1s0x5f0d2fbd4cdc8b53:0x1c68303aab49af3!2m2!1d142.9448547!2d43.7284317!3e1!4e1"
+/>
+
+<RouteMap
+  client:load
+  day={2}
+  from="Sounkyo Kankou Hotel, Kamikawa, Hokkaido, Japan"
+  to="Shiobetsu Tsurutsuru Onsen, 201 Rubeshibecho Takinoyu, Kitami, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Sounkyo+Kankou+Hotel,+%E6%B8%A9%E6%B3%89+Sounkyo,+Kamikawa,+Kamikawa+District,+Hokkaido+078-1797,+Japan/Shiobetsu+Tsurutsuru+Onsen,+201+Rubeshibecho+Takinoyu,+Kitami,+Hokkaido+091-0163,+Japan/@43.73,143.18,11z/data=!3e1!4e1"
+/>
+
+### Route planning notes
+
+Daily distance mix:
 - **35-40 mile days** when staying at onsen hotels (early check-in, relaxation)
 - **50-70 mile days** when staying at cheap guest houses (flat/rolling terrain)
 - **45-50 mile days** in mountainous sections with significant climbing
