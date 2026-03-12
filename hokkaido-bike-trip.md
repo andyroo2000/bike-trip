@@ -4,81 +4,43 @@
 
 ## Overview
 
-- **Route:** Loop starting and ending in Sapporo
-- **Mode:** Self-supported cycle touring with camping
-- **Season:** Late June through August is ideal (see Weather section)
-- **Budget accommodation:** Free/cheap campsites every 20-30km, rider houses, onsen
+- **Route:** Train from Sapporo to Shibetsu, then ride back to Sapporo
+- **Mode:** Self-supported cycle touring (no camping)
+- **Season:** Late June through Early July
+- **Accommodation:** Mix of cheap guest houses (long riding days) and onsen hotels (shorter ~35-40 mile days to allow early check-in and relaxation)
+- **First/last night:** Dormy Inn Annex, Sapporo (confirmed bike case storage)
 
 ---
 
-## Route Options
+## Route
 
-### Option A: Central Hokkaido Loop (1 week / ~500-600km)
+### Starting Point
 
-Sapporo-centric loop through the scenic interior highlands. Good for a first trip or limited time.
+**Train from Sapporo to Shibetsu** — early Tuesday morning. Ride south/west back toward Sapporo over the following days.
 
-| Day | Segment | Distance | Notes |
-|-----|---------|----------|-------|
-| 1 | Sapporo to Furano | ~115km | Via Route 38 or Takikawa; flat to rolling terrain |
-| 2 | Furano to Biei to Asahikawa | ~55-70km | Patchwork flower fields, rolling hills, iconic scenery |
-| 3 | Asahikawa to Sounkyo Onsen | ~60km | Gateway to Daisetsuzan National Park; onsen town |
-| 4 | Sounkyo to Kamikawa/Asahikawa area | ~60-80km | Option to hike in Daisetsuzan before riding |
-| 5 | Asahikawa to Rumoi (coast) | ~90km | Ride west to the Sea of Japan coast |
-| 6 | Rumoi to Ishikari coast | ~100km | Ororon Line coastal riding south |
-| 7 | Coast back to Sapporo | ~80km | Finish along the Ishikari coast |
+### Route to be planned
 
-**Total:** ~550-600km at ~80-100km/day
+Starting from Shibetsu, riding 35-50 miles on Day 1, then a mix of:
+- **35-40 mile days** when staying at onsen hotels (early check-in, relaxation)
+- **50-70 mile days** when staying at cheap guest houses (flat/rolling terrain)
+- **45-50 mile days** in mountainous sections with significant climbing
 
-### Option B: Eastern Hokkaido Loop (2 weeks / ~1,200-1,400km)
+### Key regions to potentially pass through
 
-The classic route hitting all the major highlights of eastern Hokkaido.
-
-| Day | Segment | Distance | Notes |
-|-----|---------|----------|-------|
-| 1 | Sapporo to Furano | ~115km | Interior route through farmland |
-| 2 | Furano to Biei to Asahikawa | ~60km | Short day; explore flower fields |
-| 3 | Asahikawa to Sounkyo | ~60km | Daisetsuzan gateway |
-| 4 | Sounkyo to Kitami | ~110km | Over Sekihoku Pass or via Route 39 |
-| 5 | Kitami to Abashiri | ~80km | Sea of Okhotsk coast |
-| 6 | Abashiri to Utoro (Shiretoko) | ~90km | Coastal road along Okhotsk Sea |
-| 7 | Shiretoko day / rest | — | Explore Shiretoko Peninsula (UNESCO World Heritage) |
-| 8 | Utoro to Rausu to Nakashibetsu | ~100km | Over Shiretoko Pass (740m), dramatic climb |
-| 9 | Nakashibetsu to Lake Mashu/Akan | ~80km | Volcanic caldera lakes |
-| 10 | Akan to Obihiro | ~130km | Through Tokachi Plain; flat farmland |
-| 11 | Obihiro to Hidaka | ~100km | Rolling hills |
-| 12 | Hidaka to Tomakomai | ~90km | Through horse country |
-| 13 | Tomakomai to Sapporo | ~70km | Via Shikotsu-ko (lake) cycling road |
-
-**Total:** ~1,200-1,300km at ~80-100km/day
-
-### Option C: Grand Hokkaido Loop (3 weeks / ~2,000-2,200km)
-
-Full perimeter ride including the northern coast and Cape Soya (northernmost point of Japan).
-
-Adds to Option B:
-- Asahikawa north to Wakkanai via interior or coast (~250km, 2-3 days)
-- Cape Soya (northernmost point of Japan)
-- Wakkanai east along the Okhotsk coast to Abashiri (~300km, 3-4 days)
-- Then continues the eastern Hokkaido loop (Shiretoko, Akan, Tokachi)
-- Return to Sapporo via south coast or interior
-
-**Key regions on the grand loop:**
-- **Ororon Line** (west coast, Rumoi to Wakkanai): Dramatic coastal cliffs, sea views, wind
-- **Sarobetsu coast** (north): Wild wetlands approaching Cape Soya
-- **Cape Soya / Wakkanai**: Northernmost point of Japan; monument photo op
-- **Okhotsk coast** (Wakkanai to Abashiri): Long, flat coastal stretches
-- **Shiretoko Peninsula**: UNESCO World Heritage wilderness
-- **Akan-Mashu National Park**: Volcanic lakes, onsen
+- **Shiretoko Peninsula**: UNESCO World Heritage wilderness (near Shibetsu starting point)
+- **Akan-Mashu National Park**: Volcanic caldera lakes, onsen
 - **Tokachi Plain**: Wide open agricultural flatlands
 - **Hidaka Mountains**: Horse ranching country
-
-**Total:** ~2,000-2,200km at ~80-110km/day with rest days
+- **Daisetsuzan National Park**: Sounkyo Onsen, mountain scenery
+- **Furano / Biei**: Patchwork flower fields, rolling hills (late June is lavender season)
 
 ### Daily Distance Guidelines
 
-- **Comfortable pace:** 60-80km/day (loaded touring, time for sightseeing and onsen)
-- **Moderate pace:** 80-100km/day (standard touring pace)
-- **Pushing it:** 100-130km/day (long days, less exploration time)
+- **Minimum:** 35-40 miles — onsen hotel days, arrive early for check-in and relaxation
+- **Standard:** 50-70 miles — guest house days on flatter terrain
+- **Mountain days:** 45-50 miles max — when significant climbing is involved
+- **Upper limit:** ~70 miles — absolute max for a big day on flat/rolling terrain
+- **Day 1 (from Shibetsu):** 35-50 miles — first day after train from Sapporo
 - Hokkaido terrain is generally gentle compared to Honshu; passes exist but are not extreme
 - Wide road shoulders (designed for winter snow) make riding comfortable
 
@@ -86,26 +48,20 @@ Adds to Option B:
 
 ## Bike Setup
 
-### Recommended Bike Type
+### Bike
 
-**Steel touring bike or gravel bike** — either works well for Hokkaido. Key requirements:
+**Surly Disc Trucker** — steel touring bike with disc brakes.
 
-- **Low gearing** is essential — aim for ratios around 20 gear inches at the low end. Japan is mountainous and you will climb daily, even in Hokkaido. A triple crankset or compact with wide-range cassette is recommended.
-- **Tire clearance for 35-40mm tires** minimum. Roads are predominantly smooth pavement, but gravel sections exist on backroads and some cycling paths. 38-42mm is a sweet spot.
-- **Rack and pannier mounts** — self-supported touring with panniers is the standard approach in Hokkaido. Bikepacking bags work too but panniers are more practical for camping gear.
-- **Reliable lights** — essential for the many mountain tunnels in Hokkaido. Front and rear, bright enough for tunnel visibility. Drivers slow down in tunnels but you need to be seen.
-- **Fenders** — Hokkaido gets rain. Full coverage fenders are worth the weight.
+- **Tires:** Stock 700c x 41mm
+- **Gearing:** Upgraded crankset for improved lower gearing (essential for Hokkaido's climbs)
+- **Fenders:** Yes
+- **Lights:** Yes (front and rear — essential for Hokkaido's frequent mountain tunnels)
 
-### Popular Models (for reference)
+### Bags
 
-- **Surly Long Haul Trucker / Disc Trucker** — classic steel touring bike
-- **Surly Bridge Club** — versatile, can handle gravel
-- **Kona Sutra** — steel touring with disc brakes
-- **Salsa Marrakesh** — drop bar touring
-- **Trek 520** — classic touring geometry
-- **Any quality gravel bike** with rack mounts (e.g., Salsa Journeyer, Canyon Grizl, etc.)
-
-For riders who want to explore Hokkaido's gravel backroads (rindo/forest roads), a gravel bike with wider tire clearance (40mm+) gives more flexibility. For primarily paved touring, a traditional touring bike is ideal.
+- 1x Ortlieb rear pannier
+- 1x Ortlieb rear pannier/backpack (doubles as a daypack off the bike)
+- 2x Ortlieb fork bags (front)
 
 ---
 
@@ -123,53 +79,9 @@ For riders who want to explore Hokkaido's gravel backroads (rindo/forest roads),
 
 ---
 
-## Bike Case Storage Strategy
+## Bike Case Storage — Confirmed
 
-### Option 1: Hotel Storage (Recommended / Simplest)
-
-Book the same hotel for your first and last night in Sapporo. Ask the hotel to store your bike case while you tour. Most hotels will accommodate this, especially if you have a reservation for return stay. One cyclist confirmed JR Inn Chitose stored a case for a full month with a return booking.
-
-**Tips:**
-- Confirm storage policy when booking (email in advance)
-- Business hotels near Sapporo Station are most accommodating
-- Offer to pay a storage fee if needed — most don't charge
-
-### Option 2: SilkCrane Bicycle Storage (Near Sapporo)
-
-A dedicated climate-controlled bicycle storage facility near Sapporo designed for international cyclists.
-
-- 24/7 surveillance, humidity control
-- Can ship your stored items to/from anywhere in Japan
-- Membership-based (annual); contact for pricing
-- WhatsApp: +81-80-4504-3636
-- Website: silkcrane.com
-
-### Option 3: Takkyubin / Yamato Transport (Luggage Forwarding)
-
-Ship your bike case from Sapporo to your end-point hotel or to New Chitose Airport.
-
-- **Yamato Transport (Kuroneko/Black Cat)** is the main provider
-- **Size limit:** Standard Ta-Q-Bin service requires items under 200cm total dimensions and under 30kg. Most bike cases exceed this.
-- **Oversized service:** Yamato's "Yamato Benri" or freight services handle larger items, but English support is limited
-- **Cost:** Approximately 2,200-5,200 yen depending on size and distance
-- **Timing:** Allow 2-3 days for delivery within Hokkaido
-- Hotels can help arrange Yamato pickups at reception
-
-### Option 4: New Chitose Airport Storage
-
-- Airport baggage storage services available
-- Baggage delivery between airport and Sapporo hotels (Chuo Ward) costs ~2,200 yen per piece
-- Check current maximum storage duration
-
-### Option 5: Ask a Bike Shop
-
-- **Namba Cycles (Chitose)** — known to store bike boxes for touring cyclists and has free boxes available
-- **Sam's Bike (Sapporo)** — adventure cycling specialty shop, may accommodate storage requests
-- **Spark Cycling (Sapporo)** — rents touring bikes and offers airport greeting; likely willing to help
-
-### Recommended Strategy
-
-Book a hotel near Sapporo Station for first and last night. Store bike case at the hotel. Carry a lightweight rinko bag on the bike for any emergency train travel during the tour. If the hotel can't store, use SilkCrane or ask Sam's Bike/Spark Cycling.
+**Dormy Inn Annex, Sapporo** — booked for first and last night. Confirmed they will store the Postcarry Transfer Case while touring.
 
 ---
 
@@ -177,7 +89,7 @@ Book a hotel near Sapporo Station for first and last night. Store bike case at t
 
 | Name | What | Contact |
 |------|------|---------|
-| **HokkaidoWilds.org (Rob Thomson)** | Best English resource for Hokkaido cycle touring: GPS routes, maps, campsite info | rob@hokkaidowilds.org |
+| **HokkaidoWilds.org (Rob Thomson)** | Best English resource for Hokkaido cycle touring: GPS routes, maps, accommodation info | rob@hokkaidowilds.org |
 | **Sam's Bike, Sapporo** | Top adventure cycling shop | Near Tsukisamu Chuo Station |
 | **Namba Cycles, Chitose** | Free bike boxes for departure | Chitose |
 | **Spark Cycling, Sapporo** | Touring bike rentals, airport greeting service | Sapporo |
@@ -185,9 +97,8 @@ Book a hotel near Sapporo Station for first and last night. Store bike case at t
 
 ### Essential Digital Resources
 
-- **HokkaidoWilds.org** — Free GPS routes, cycling conditions, campsite database (English)
-- **Touring Mapple (book)** — The map book for Hokkaido touring; marks campsites, onsen, rider houses (Japanese but color-coded: red = free)
-- **Japan Free Campsites Google Map** (by James Oda) — Interactive map of 350+ free campsites and ~100 free onsen across Japan
+- **HokkaidoWilds.org** — Free GPS routes, cycling conditions, accommodation info (English)
+- **Touring Mapple (book)** — The map book for Hokkaido touring; marks onsen, rider houses, guest houses (Japanese but color-coded)
 - **RideWithGPS** — Rob Thomson's recommended Hokkaido routes available as downloads
 - **Happy Cow app** — For finding restaurants (useful if you have dietary restrictions)
 
@@ -209,21 +120,7 @@ Book a hotel near Sapporo Station for first and last night. Store bike case at t
 - Spare spokes (taped to frame)
 - **Bright front light + rear light** (tunnels are frequent in Hokkaido; mandatory for safety)
 - Bike lock (cable lock is fine; theft risk is very low in Japan)
-- Panniers (rear minimum; front optional depending on load)
 - Bungee cords / straps
-
-### Camping
-- Lightweight tent (freestanding preferred — many campsites are gravel or grass)
-- Sleeping bag (rated to 5-10C / 40-50F — Hokkaido nights can drop to 10C even in summer)
-- Sleeping pad (inflatable or foam)
-- Camp stove + fuel canister (isobutane canisters available at outdoor shops and some home centers in Japan; not at konbini)
-- Lightweight pot and mug
-- Spork / chopsticks
-- Lighter
-- Headlamp
-- Small dry bag for valuables
-
-**Note on camping in Hokkaido:** Campsites are everywhere, every 20-30km. They range from free to ~2,000 yen/person. Most don't require reservations (just show up). Cyclists are never turned away, though popular sites near Sapporo can be crowded on summer weekends. Wild camping is also feasible — wait until dusk, set up discreetly, leave early.
 
 ### Clothing
 
@@ -243,12 +140,12 @@ Hokkaido summer weather: daytime highs up to 30C, overnight lows down to 10C. Ra
 - Waterproof pants or rain skirt
 - Waterproof shoe covers (optional)
 
-**Off-bike / camp:**
+**Off-bike:**
 - Lightweight down or synthetic puffy jacket (essential for cold evenings)
 - Warm hat / beanie (for 10C nights)
 - 1 pair lightweight pants or shorts
 - Underwear (2-3 pairs, merino or quick-dry)
-- Camp sandals / flip-flops (for onsen and around camp)
+- Sandals / flip-flops (for onsen and guest houses)
 - Buff / neck gaiter
 
 ### Electronics & Navigation
@@ -256,7 +153,6 @@ Hokkaido summer weather: daytime highs up to 30C, overnight lows down to 10C. Ra
 - Downloaded GPS routes from HokkaidoWilds.org
 - USB battery bank (10,000-20,000 mAh)
 - Charging cables
-- Dynamo hub or solar panel (optional, for extended off-grid stretches)
 - Bike computer / GPS (optional; phone can serve this role)
 - Japan SIM card or eSIM (available at airports; essential for navigation and translation)
 - Google Translate app (offline Japanese pack downloaded; camera translation feature is invaluable for menus and signs)
@@ -267,7 +163,6 @@ Hokkaido summer weather: daytime highs up to 30C, overnight lows down to 10C. Ra
 - Konbini (convenience store) strategy: 7-Eleven, Family Mart, Lawson, and Seicomart (Hokkaido's own chain) are your lifeline. Available in most towns. In remote eastern Hokkaido, you may go 1-2 days between konbini — carry extra food for those stretches.
 - Supermarkets: shop after 6pm for 20-50% discounts on prepared food (bento, sushi, etc.)
 - Onigiri, bread, bananas, and energy bars are staples for riding
-- Instant noodles / ramen for camp meals (hot water from konbini or your stove)
 - Electrolyte tablets or powder (summer heat)
 
 ### Documents & Money
@@ -301,36 +196,26 @@ Hokkaido summer weather: daytime highs up to 30C, overnight lows down to 10C. Ra
 - Backroads and gravel forest roads (rindo) exist for those wanting off-road exploration
 - Route signage is good; road numbers are marked consistently
 
-### Camping Culture
+### Accommodation Strategy
 
-- Hokkaido has the best free/cheap camping of anywhere in Japan
-- **Free municipal campsites** are scattered across the island, especially outside cities
-- Campsites often have: toilets, covered cooking shelters, water taps, flat grass tent areas
-- Most **do not have showers** — you use the nearby onsen instead
-- Typically no reservations needed; arrive and set up
-- Campsites are usually within walking distance or a short ride from an onsen
+- **Onsen hotels:** Book for shorter riding days (~35-40 miles). Arrive early, enjoy the facilities.
+- **Guest houses / rider houses:** Use on longer riding days. Cheap, basic, functional.
 - **Rider Houses** — ultra-budget indoor accommodation (floor sleeping in a basic building) exclusively for motorcycle and bicycle travelers. Seasonal (summer only). Scattered across Hokkaido. Typically 500-1,000 yen or free.
-- The Touring Mapple guidebook and HokkaidoWilds.org map all known campsites
 
 ### Onsen (Hot Springs)
 
 - Found in nearly every town in Hokkaido
-- Cost: 200-800 yen typically (~$2-6)
-- **Essential for daily hygiene** since campsites rarely have showers
+- Cost: 200-800 yen typically (~$2-6) for day-use; included at onsen hotels
 - Etiquette: Wash thoroughly at the shower stations before entering the communal bath. No swimsuits. Tattoos can be an issue at some facilities (look for tattoo-friendly onsen or use private baths).
-- Many campgrounds are deliberately located near onsen — this is the Hokkaido cycling routine: ride, set up camp, walk to onsen, cook dinner
 
 ### Bear Safety
 
 - Hokkaido is home to **brown bears (higuma)**
 - Encounters while cycling are **very rare** — bears avoid roads and populated areas
-- Greater risk is at campsites in remote/forested areas
 - **Precautions:**
   - Carry a bear bell on your bike or pack (available at outdoor shops in Sapporo for ~500 yen)
-  - Store food away from your tent (hang if possible, or use hard-sided panniers at distance)
-  - Never cook in or near your tent
   - Make noise when riding through forested areas
-  - Check local bear sighting reports (signs are often posted at trailheads and campgrounds)
+  - Check local bear sighting reports (signs are often posted at trailheads)
   - Carry bear spray if you'll be in especially remote areas (Shiretoko in particular)
 - Realistically, the bigger wildlife concern is deer on the road at dusk
 
@@ -360,7 +245,7 @@ Konbini are the backbone of cycle touring logistics in Japan:
 - **Cash is king** outside of cities. Carry enough for 2-3 days minimum.
 - 7-Eleven ATMs reliably accept international Visa/Mastercard
 - Post office ATMs also accept international cards
-- Budget: camping + konbini food = ~2,000-4,000 yen/day ($15-30); add onsen ~500 yen/day
+- Budget: guest houses ~3,000-5,000 yen/night; onsen hotels ~8,000-15,000+ yen/night; konbini food ~2,000-4,000 yen/day
 
 ### Transport Options (if needed mid-tour)
 
@@ -372,11 +257,12 @@ Konbini are the backbone of cycle touring logistics in Japan:
 
 ## Open Questions
 
-- [ ] Decide trip length (1 week / 2 week / 3 week)
-- [ ] Finalize route based on trip length
-- [ ] Book first/last night hotel in Sapporo and confirm bike case storage
-- [ ] Determine whether to bring own bike or rent from Spark Cycling
+- [x] ~~Book first/last night hotel in Sapporo and confirm bike case storage~~ — Dormy Inn Annex, confirmed
+- [x] ~~Determine whether to bring own bike or rent~~ — bringing Disc Trucker
+- [ ] Finalize day-by-day route from Shibetsu back to Sapporo
+- [ ] Book guest houses and onsen hotels along route
 - [ ] Purchase Touring Mapple guidebook
 - [ ] Download GPS routes from HokkaidoWilds.org
 - [ ] Arrange Japan SIM/eSIM
 - [ ] Get bear bell in Sapporo on arrival
+- [ ] Buy rinko bag for train to Shibetsu
