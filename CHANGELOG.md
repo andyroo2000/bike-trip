@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+- 2025 itinerary reference file with all bookings, transit, and daily mileage from last year's trip
+- PostCSS config for Tailwind v4 migration
+- .claude/ to .gitignore
+
 ### Changed
 - Personalized trip plan with confirmed details: Shibetsu start, Disc Trucker bike, Dormy Inn Annex storage, guest house + onsen hotel accommodation strategy
 - Replaced generic route options with Shibetsu-to-Sapporo route plan
