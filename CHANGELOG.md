@@ -14,6 +14,9 @@ All notable changes to this project will be documented in this file.
 - URL redirects from old flat paths (/flights → /2026/flights, etc.)
 - Lodging page with confirmed Dormy Inn Sapporo bookings and nightly overview table
 - Days 7-8 route: Betsukai → Teshikaga (37.9 mi) → Akanko Onsen (30.6 mi) with route maps
+- Complete 12-day route: Akan → Ashoro → Nukabira → Kamikawa → Asahikawa (train to Sapporo)
+- OverviewMap component for full route visualization
+- RouteMap components for Days 9-12
 
 ### Changed
 - Restructured content into src/content/{year}/ directories
