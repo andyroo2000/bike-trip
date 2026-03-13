@@ -5,14 +5,28 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Added
+- Multi-trip site structure with year-scoped URLs (/2025/, /2026/)
+- Trips listing page at / with cards for 2025 and 2026
+- Planning page with route notes, key regions, distance guidelines, and open questions
+- Compact dark sticky header with dropdown navigation menu
+- Dropdown shows current section name as trigger (e.g. "Itinerary ∨")
+- Day badges (white number in black circle) and elevation arrow badges in route table
+- URL redirects from old flat paths (/flights → /2026/flights, etc.)
+
+### Changed
+- Restructured content into src/content/{year}/ directories
+- Moved pages under src/pages/{2025,2026}/ for year scoping
+- Compact header: "Bike Tour" + year link + dropdown (replaces large title + inline nav)
+- Switched from prose-lg to prose for tighter text layout
+- Extracted planning content from itinerary into dedicated Planning page
+
+### Previously Added
 - Multi-page site: split content into 6 pages (itinerary, flights, bike, gear, resources, tips)
 - Sticky navigation with title header ("Hokkaido Bike Tour / Summer 2026")
 - Flight details: AA confirmation CJUIPK, RDU↔CTS Jun 27–Jul 12, $2,194.83
 - Route days 3–6: Abashiri, Utoro/Shiretoko, Rausu (Livemax Resort), Betsukai (BPS Hotels)
 - Placeholder rows for days 7–12 with dates through Sat 7/11 (last night in Sapporo)
 - Embedded Google Maps for each confirmed route day (days 1–6)
-
-### Changed
 - Minimal monochrome design: Inter font (self-hosted), teal accent color, clean typography
 - Astro View Transitions for SPA-like navigation (no font flash between pages)
 - Table headers now uppercase muted style; HRs more spacious
