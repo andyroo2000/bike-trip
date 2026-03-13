@@ -19,6 +19,14 @@ All notable changes to this project will be documented in this file.
 - Compact header: "Bike Tour" + year link + dropdown (replaces large title + inline nav)
 - Switched from prose-lg to prose for tighter text layout
 - Extracted planning content from itinerary into dedicated Planning page
+- Personalized gear list with actual kit (Garmin Edge 1050, Lems, Tevas, Alfort, Pocari Sweat)
+- Navigation: Ride With GPS routes on Garmin Edge 1050 + phone offline backup
+- Trimmed language/tips sections — removed obvious advice
+
+### Removed
+- SIM/eSIM references (using Google Fi)
+- Google Translate tips
+- Generic gear recommendations replaced with actual items
 
 ### Previously Added
 - Multi-page site: split content into 6 pages (itinerary, flights, bike, gear, resources, tips)
