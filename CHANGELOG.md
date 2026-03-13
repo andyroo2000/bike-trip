@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - Dropdown shows current section name as trigger (e.g. "Itinerary ∨")
 - Day badges (white number in black circle) and elevation arrow badges in route table
 - URL redirects from old flat paths (/flights → /2026/flights, etc.)
+- Lodging page with confirmed Dormy Inn Sapporo bookings and nightly overview table
 
 ### Changed
 - Restructured content into src/content/{year}/ directories
