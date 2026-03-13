@@ -4,7 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+- Lodging bookings for Nights 1-3: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri
+- Booking source tracking (Agoda/Booking.com/Japanican) on each confirmed property
+
 ### Changed
+- Night 2 destination: Oehonke (Onneyu Onsen) replaces Shiobetsu Tsurutsuru Onsen (no availability)
+- Day 2/3 distances and elevation recalculated for new route via Google Maps
+- Route totals updated: ~505 mi, ↑~17,400, ↓~17,600
+- RouteMap addresses and OverviewMap waypoints updated to match confirmed bookings
 - 2025 page title updated to "Itinerary — Hokkaido 2025" (was "2025 — Japan & Korea")
 
 ### Fixed
