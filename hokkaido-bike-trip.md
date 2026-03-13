@@ -12,6 +12,21 @@
 
 ---
 
+## Flights
+
+**RDU ↔ Sapporo (CTS)** — American Airlines, confirmation **CJUIPK**, $2,194.83
+
+| Leg | Date | Depart | Arrive | Duration | Stops |
+|-----|------|--------|--------|----------|-------|
+| Outbound | Sat Jun 27 | 5:15pm RDU | 10:25am CTS (Mon Jun 29) | 28h 10m | LAX (5h 3m), HND (4h 5m) |
+| Return | Sun Jul 12 | 7:40am CTS | 4:46pm RDU (same day) | 22h 6m | HND (2h 40m), LAX (2h 47m) |
+
+- **Outbound flights:** AA 1569 (A321) → AA 169 (787-9) → AA 8392/JAL (A350-900)
+- **Return flights:** AA 8393/JAL (A350-900) → AA 170 (787-9) → AA 2396 (A321)
+- **Fare:** Main Cabin. Includes checked bags, carry-on, exchange. No refund.
+
+---
+
 ## Route
 
 ### Starting Point
@@ -22,9 +37,18 @@
 
 | Day | From | To | Miles | Climbing | Notes |
 |-----|------|----|-------|----------|-------|
-| 1 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | ⬆️ 2,461ft ⬇️ 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
-| 2 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | ⬆️ 1,463ft ⬇️ 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
-| 3+ | Shiobetsu Tsurutsuru Onsen | TBD — heading north/east toward Okhotsk coast | — | — | Planning in progress |
+| 1 — Tue 6/30 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | ⬆️ 2,461ft ⬇️ 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
+| 2 — Wed 7/1 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | ⬆️ 1,463ft ⬇️ 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
+| 3 — Thu 7/2 | Shiobetsu Tsurutsuru Onsen | Dormy Inn Abashiri | 59.9 | ⬆️ 1,614ft ⬇️ 3,163ft | Via 国道39号 through Kitami. Net downhill to the coast. Onsen hotel. |
+| 4 — Fri 7/3 | Dormy Inn Abashiri | Utoro Onsen (ウトロ温泉), Shiretoko | 50.6 | ⬆️ 1,690ft ⬇️ 1,509ft | Via 国道334号. Flat to Shari, then rolling hills into Shiretoko Peninsula. Onsen hotel. |
+| 5 — Sat 7/4 | Utoro Onsen | Livemax Resort Shiretoko Seafront (south of Rausu) | ~23.5 | ⬆️ ~2,360ft ⬇️ ~2,360ft | Via 国道334号 over Shiretoko Pass (738m), then 国道335号 south. Mountain day. Onsen hotel. |
+| 6 — Sun 7/5 | Livemax Resort | BPS Hotels, Betsukai (別海) | 52.6 | ⬆️ 1,201ft ⬇️ 1,148ft | Via 国道335号. Flat coast through Shibetsu/Nakashibetsu, then south to Betsukai. |
+| 7 — Mon 7/6 | Betsukai | TBD | — | — | Heading west toward Akan-Mashu / Kawayu Onsen |
+| 8 — Tue 7/7 | TBD | TBD | — | — | |
+| 9 — Wed 7/8 | TBD | TBD | — | — | |
+| 10 — Thu 7/9 | TBD | TBD | — | — | |
+| 11 — Fri 7/10 | TBD | TBD | — | — | |
+| 12 — Sat 7/11 | TBD | Dormy Inn Annex, Sapporo | — | — | Last night. Pack bike for flight. |
 
 
 
