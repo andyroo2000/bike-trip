@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Changed
+- 2025 page title updated to "Itinerary — Hokkaido 2025" (was "2025 — Japan & Korea")
+
 ### Fixed
 - 2025 Omu and Esashi map pins now use hotel names to avoid wrong Google Maps locations
 
