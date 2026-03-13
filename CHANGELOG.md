@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Fixed
+- 2025 Omu map pins now use hotel name (Okhotsk Onsen Hotel Cape Sunrise) to avoid wrong Google Maps location
+
 ### Added
 - Reformatted 2025 itinerary to match 2026 style (MDX with route table, day badges, RouteMap + OverviewMap components)
 - Multi-trip site structure with year-scoped URLs (/2025/, /2026/)
