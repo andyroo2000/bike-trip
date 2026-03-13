@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Day badges (white number in black circle) and elevation arrow badges in route table
 - URL redirects from old flat paths (/flights → /2026/flights, etc.)
 - Lodging page with confirmed Dormy Inn Sapporo bookings and nightly overview table
+- Days 7-8 route: Betsukai → Teshikaga (37.9 mi) → Akanko Onsen (30.6 mi) with route maps
 
 ### Changed
 - Restructured content into src/content/{year}/ directories
