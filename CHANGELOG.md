@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - 2025 Omu and Esashi map pins now use hotel names to avoid wrong Google Maps locations
 
 ### Added
+- Mileage and elevation totals row at bottom of route tables (both years)
 - Reformatted 2025 itinerary to match 2026 style (MDX with route table, day badges, RouteMap + OverviewMap components)
 - Multi-trip site structure with year-scoped URLs (/2025/, /2026/)
 - Trips listing page at / with cards for 2025 and 2026
