@@ -1,0 +1,158 @@
+import RouteMap from '../../components/RouteMap.tsx';
+import OverviewMap from '../../components/OverviewMap.tsx';
+
+# Itinerary
+
+## Overview
+
+- **Route:** Train from Sapporo to Fukagawa, ride north along the Sea of Japan coast to Wakkanai, ferry to Rishiri Island, then south along the Okhotsk coast, inland to Asahikawa, and back to Sapporo via Furano
+- **Mode:** Self-supported cycle touring (no camping)
+- **Season:** Late June through mid-July 2025
+- **Accommodation:** Mix of guest houses, ryokan, onsen hotels, and Dormy Inns
+
+---
+
+## Route
+
+### Starting Point
+
+**Train from Sapporo to Fukagawa** — then ride north along the Sea of Japan coast toward Wakkanai.
+
+### Route Table
+
+| Day | From | To | Miles | Climbing | Notes |
+|-----|------|----|-------|----------|-------|
+| <span class="day-badge">1</span><br/>Mon 6/30 | Fukagawa | Rumoi (Hotel New White House) | 37 | <span class="elev-up">↑</span> ~1,200<br/><span class="elev-down">↓</span> ~1,200 | Train from Sapporo to Fukagawa. Sea of Japan coast. |
+| <span class="day-badge">2</span><br/>Tue 7/1 | Rumoi | Haboro (Fujiya Ryokan) | 37 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~800 | Coastal road north. Ryokan with breakfast and dinner. |
+| <span class="day-badge">3</span><br/>Wed 7/2 | Haboro | Teshio (Teshio Onsen Yubae) | 46 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~600 | Continue up the coast. Onsen hotel. |
+| <span class="day-badge">4</span><br/>Thu 7/3 | Teshio | Wakkanai (Dormy Inn Wakkanai) | 46 | <span class="elev-up">↑</span> ~500<br/><span class="elev-down">↓</span> ~500 | Northernmost city in Japan. Dormy Inn onsen. |
+| | | **Ferry to Rishiri Island** | | | 3 nights at Rishiri Antique Inn (7/4–7/7). |
+| <span class="day-badge">5</span><br/>Mon 7/7 | Wakkanai | Sarafutsu | 46 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~800 | Ferry back from Rishiri, then east along the coast. |
+| <span class="day-badge">6</span><br/>Tue 7/8 | Sarafutsu | Esashi (Hotel New Kohrin) | 44 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~600 | Okhotsk coast. Breakfast and dinner included. |
+| <span class="day-badge">7</span><br/>Wed 7/9 | Esashi | Omu (Okhotsk Onsen Hotel Cape Sunrise) | 56 | <span class="elev-up">↑</span> ~1,000<br/><span class="elev-down">↓</span> ~1,000 | Long coastal day. Onsen hotel with breakfast and dinner. |
+| <span class="day-badge">8</span><br/>Thu 7/10 | Omu | Shimokawa (Yuinomori) | 48 | <span class="elev-up">↑</span> ~1,400<br/><span class="elev-down">↓</span> ~800 | Turn inland from the coast. Guest house. |
+| <span class="day-badge">9</span><br/>Fri 7/11 | Shimokawa | Asahikawa (Dormy Inn Asahikawa) | 68 | <span class="elev-up">↑</span> ~1,000<br/><span class="elev-down">↓</span> ~1,600 | Longest day. Net downhill into Asahikawa. |
+| <span class="day-badge">10</span><br/>Sat 7/12 | Asahikawa | Furano (Frontier Furanui Spa) | 29 | <span class="elev-up">↑</span> ~400<br/><span class="elev-down">↓</span> ~600 | Short day. Lavender fields in bloom. Japanese-style room. |
+| <span class="day-badge">11</span><br/>Sun 7/13 | Furano | Kamisunagawa (Panke no Yu Hot Spring) | 42 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~1,200 | Onsen hotel with breakfast and dinner. |
+| <span class="day-badge">12</span><br/>Mon 7/14 | Kamisunagawa | Sapporo (The B – Sapporo) | 57 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~1,000 | Final ride back to Sapporo. |
+
+<RouteMap
+  client:load
+  day={1}
+  from="Fukagawa Station, Fukagawa, Hokkaido, Japan"
+  to="Rumoi, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Fukagawa+Station,+Hokkaido,+Japan/Rumoi,+Hokkaido,+Japan/@43.6,141.8,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={2}
+  from="Rumoi, Hokkaido, Japan"
+  to="Haboro, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Rumoi,+Hokkaido,+Japan/Haboro,+Hokkaido,+Japan/@44.0,141.7,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={3}
+  from="Haboro, Hokkaido, Japan"
+  to="Teshio, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Haboro,+Hokkaido,+Japan/Teshio,+Hokkaido,+Japan/@44.5,141.7,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={4}
+  from="Teshio, Hokkaido, Japan"
+  to="Dormy Inn Wakkanai, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Teshio,+Hokkaido,+Japan/Dormy+Inn+Wakkanai,+Hokkaido,+Japan/@45.0,141.8,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={5}
+  from="Wakkanai, Hokkaido, Japan"
+  to="Sarufutsu, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Wakkanai,+Hokkaido,+Japan/Sarufutsu,+Hokkaido,+Japan/@45.1,142.2,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={6}
+  from="Sarufutsu, Hokkaido, Japan"
+  to="Esashi, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Sarufutsu,+Hokkaido,+Japan/Esashi,+Hokkaido,+Japan/@44.9,142.4,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={7}
+  from="Esashi, Hokkaido, Japan"
+  to="Omu, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Esashi,+Hokkaido,+Japan/Omu,+Hokkaido,+Japan/@44.5,142.8,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={8}
+  from="Omu, Hokkaido, Japan"
+  to="Shimokawa, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Omu,+Hokkaido,+Japan/Shimokawa,+Hokkaido,+Japan/@44.3,142.8,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={9}
+  from="Shimokawa, Hokkaido, Japan"
+  to="Dormy Inn Asahikawa, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Shimokawa,+Hokkaido,+Japan/Dormy+Inn+Asahikawa,+Hokkaido,+Japan/@43.9,142.5,9z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={10}
+  from="Asahikawa Station, Hokkaido, Japan"
+  to="Furano, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Asahikawa+Station,+Hokkaido,+Japan/Furano,+Hokkaido,+Japan/@43.5,142.4,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={11}
+  from="Furano, Hokkaido, Japan"
+  to="Kamisunagawa, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Furano,+Hokkaido,+Japan/Kamisunagawa,+Hokkaido,+Japan/@43.3,142.1,10z/data=!3e0"
+/>
+
+<RouteMap
+  client:load
+  day={12}
+  from="Kamisunagawa, Hokkaido, Japan"
+  to="Sapporo Station, Hokkaido, Japan"
+  mapsUrl="https://www.google.com/maps/dir/Kamisunagawa,+Hokkaido,+Japan/Sapporo+Station,+Hokkaido,+Japan/@43.2,141.5,9z/data=!3e0"
+/>
+
+---
+
+### Full Route Overview
+
+<OverviewMap
+  client:load
+  title="Full Route: Fukagawa → Sea of Japan Coast → Rishiri → Okhotsk Coast → Asahikawa → Sapporo"
+  stops={[
+    "Fukagawa Station, Hokkaido, Japan",
+    "Rumoi, Hokkaido, Japan",
+    "Haboro, Hokkaido, Japan",
+    "Teshio, Hokkaido, Japan",
+    "Wakkanai, Hokkaido, Japan",
+    "Sarufutsu, Hokkaido, Japan",
+    "Esashi, Hokkaido, Japan",
+    "Omu, Hokkaido, Japan",
+    "Shimokawa, Hokkaido, Japan",
+    "Asahikawa Station, Hokkaido, Japan",
+    "Furano, Hokkaido, Japan",
+    "Kamisunagawa, Hokkaido, Japan",
+    "Sapporo Station, Hokkaido, Japan"
+  ]}
+  mapsUrl="https://www.google.com/maps/dir/Fukagawa,+Hokkaido/Rumoi,+Hokkaido/Haboro,+Hokkaido/Teshio,+Hokkaido/Wakkanai,+Hokkaido/Sarufutsu,+Hokkaido/Esashi,+Hokkaido/Omu,+Hokkaido/Shimokawa,+Hokkaido/Asahikawa,+Hokkaido/Furano,+Hokkaido/Kamisunagawa,+Hokkaido/Sapporo,+Hokkaido/@43.8,142.5,7z/data=!3e0"
+/>
