@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Added
-- Lodging bookings for Nights 1-3: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri
+- Lodging bookings for Nights 1-5: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri, Shiretoko Yuhi no Ataruie (Utoro), Livemax Resort (Rausu)
 - Booking source tracking (Agoda/Booking.com/Japanican) on each confirmed property
 
 ### Changed
