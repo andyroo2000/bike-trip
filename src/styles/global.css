@@ -26,8 +26,8 @@
 
   .prose :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     border-color: var(--color-border);
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .prose :where(th):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
@@ -37,6 +37,11 @@
     letter-spacing: 0.05em;
     color: var(--color-muted);
   }
+
+  /* Keep climbing column on one line per elevation value */
+  .prose :where(td:nth-child(5)):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    white-space: nowrap;
+  }
 }
 
 /* Sticky header */
@@ -44,14 +49,13 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: white;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  background: var(--color-ink);
+  transition: box-shadow 0.2s ease;
   border-bottom: 1px solid transparent;
 }
 
 .header-sticky.scrolled {
-  border-bottom-color: var(--color-border);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Hide scrollbar for nav horizontal scroll */
@@ -61,4 +65,58 @@
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Dropdown nav */
+details.nav-dropdown > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details.nav-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+.nav-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.25rem);
+  min-width: 10rem;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 0.25rem 0;
+  z-index: 60;
+}
+
+/* Day badge */
+.day-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6em;
+  height: 1.6em;
+  padding: 0 0.3em;
+  border-radius: 9999px;
+  background: var(--color-ink);
+  color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Elevation arrow badges */
+.elev-up, .elev-down {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 9999px;
+  background: var(--color-ink);
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: middle;
 }

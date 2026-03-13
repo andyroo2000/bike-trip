@@ -6,9 +6,10 @@ import Nav from '../components/Nav.astro';
 
 interface Props {
   title: string;
+  year?: string;
 }
 
-const { title } = Astro.props;
+const { title, year } = Astro.props;
 ---
 
 <!doctype html>
@@ -21,18 +22,24 @@ const { title } = Astro.props;
     <ClientRouter />
   </head>
   <body class="bg-white text-ink font-sans min-h-screen">
-    <header class="header-sticky bg-white" id="site-header">
+    <header class="header-sticky bg-ink" id="site-header">
       <div class="max-w-3xl mx-auto px-4">
-        <div class="pt-6 pb-3">
-          <a href="/" class="no-underline hover:no-underline">
-            <h1 class="text-xl sm:text-2xl font-bold tracking-tight text-ink m-0">Hokkaido Bike Tour</h1>
-          </a>
-          <p class="text-sm text-muted mt-0.5 mb-0">Summer 2026</p>
+        <div class="flex items-center justify-between py-3">
+          <div class="flex items-baseline gap-3">
+            <a href="/" class="no-underline hover:no-underline">
+              <span class="text-lg sm:text-xl font-bold tracking-tight text-white">Bike Tour</span>
+            </a>
+            {year && (
+              <a href={`/${year}/`} class="text-sm font-medium text-gray-400 hover:text-white no-underline transition-colors">
+                {year}
+              </a>
+            )}
+          </div>
+          {year && <Nav year={year} />}
         </div>
-        <Nav />
       </div>
     </header>
-    <main class="max-w-3xl mx-auto px-4 py-8 sm:py-12">
+    <main class="max-w-3xl mx-auto px-4 py-6 sm:py-8">
       <slot />
     </main>
     <script>

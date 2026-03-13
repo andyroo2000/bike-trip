@@ -1,4 +1,4 @@
-import RouteMap from '../components/RouteMap.tsx';
+import RouteMap from '../../components/RouteMap.tsx';
 
 # Itinerary
 
@@ -22,18 +22,18 @@ import RouteMap from '../components/RouteMap.tsx';
 
 | Day | From | To | Miles | Climbing | Notes |
 |-----|------|----|-------|----------|-------|
-| 1 — Tue 6/30 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | ⬆️ 2,461ft ⬇️ 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
-| 2 — Wed 7/1 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | ⬆️ 1,463ft ⬇️ 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
-| 3 — Thu 7/2 | Shiobetsu Tsurutsuru Onsen | Dormy Inn Abashiri | 59.9 | ⬆️ 1,614ft ⬇️ 3,163ft | Via 国道39号 through Kitami. Net downhill to the coast. Onsen hotel. |
-| 4 — Fri 7/3 | Dormy Inn Abashiri | Utoro Onsen (ウトロ温泉), Shiretoko | 50.6 | ⬆️ 1,690ft ⬇️ 1,509ft | Via 国道334号. Flat to Shari, then rolling hills into Shiretoko Peninsula. Onsen hotel. |
-| 5 — Sat 7/4 | Utoro Onsen | Livemax Resort Shiretoko Seafront (south of Rausu) | ~23.5 | ⬆️ ~2,360ft ⬇️ ~2,360ft | Via 国道334号 over Shiretoko Pass (738m), then 国道335号 south. Mountain day. Onsen hotel. |
-| 6 — Sun 7/5 | Livemax Resort | BPS Hotels, Betsukai (別海) | 52.6 | ⬆️ 1,201ft ⬇️ 1,148ft | Via 国道335号. Flat coast through Shibetsu/Nakashibetsu, then south to Betsukai. |
-| 7 — Mon 7/6 | Betsukai | TBD | — | — | Heading west toward Akan-Mashu / Kawayu Onsen |
-| 8 — Tue 7/7 | TBD | TBD | — | — | |
-| 9 — Wed 7/8 | TBD | TBD | — | — | |
-| 10 — Thu 7/9 | TBD | TBD | — | — | |
-| 11 — Fri 7/10 | TBD | TBD | — | — | |
-| 12 — Sat 7/11 | TBD | Dormy Inn Annex, Sapporo | — | — | Last night. Pack bike for flight. |
+| <span class="day-badge">1</span><br/>Tue 6/30 | Asahikawa Station | Sounkyo Kankou Hotel (層雲峡観光ホテル) | 44.1 | <span class="elev-up">↑</span> 2,461ft<br/><span class="elev-down">↓</span> 787ft | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
+| <span class="day-badge">2</span><br/>Wed 7/1 | Sounkyo Kankou Hotel | Shiobetsu Tsurutsuru Onsen (塩別つるつる温泉, Rubeshibe) | 32.9 | <span class="elev-up">↑</span> 1,463ft<br/><span class="elev-down">↓</span> 2,320ft | Via 国道39号. Over the pass, net downhill. Onsen hotel. |
+| <span class="day-badge">3</span><br/>Thu 7/2 | Shiobetsu Tsurutsuru Onsen | Dormy Inn Abashiri | 59.9 | <span class="elev-up">↑</span> 1,614ft<br/><span class="elev-down">↓</span> 3,163ft | Via 国道39号 through Kitami. Net downhill to the coast. Onsen hotel. |
+| <span class="day-badge">4</span><br/>Fri 7/3 | Dormy Inn Abashiri | Utoro Onsen (ウトロ温泉), Shiretoko | 50.6 | <span class="elev-up">↑</span> 1,690ft<br/><span class="elev-down">↓</span> 1,509ft | Via 国道334号. Flat to Shari, then rolling hills into Shiretoko Peninsula. Onsen hotel. |
+| <span class="day-badge">5</span><br/>Sat 7/4 | Utoro Onsen | Livemax Resort Shiretoko Seafront (south of Rausu) | ~23.5 | <span class="elev-up">↑</span> ~2,360ft<br/><span class="elev-down">↓</span> ~2,360ft | Via 国道334号 over Shiretoko Pass (738m), then 国道335号 south. Mountain day. Onsen hotel. |
+| <span class="day-badge">6</span><br/>Sun 7/5 | Livemax Resort | BPS Hotels, Betsukai (別海) | 52.6 | <span class="elev-up">↑</span> 1,201ft<br/><span class="elev-down">↓</span> 1,148ft | Via 国道335号. Flat coast through Shibetsu/Nakashibetsu, then south to Betsukai. |
+| <span class="day-badge">7</span><br/>Mon 7/6 | Betsukai | TBD | — | — | Heading west toward Akan-Mashu / Kawayu Onsen |
+| <span class="day-badge">8</span><br/>Tue 7/7 | TBD | TBD | — | — | |
+| <span class="day-badge">9</span><br/>Wed 7/8 | TBD | TBD | — | — | |
+| <span class="day-badge">10</span><br/>Thu 7/9 | TBD | TBD | — | — | |
+| <span class="day-badge">11</span><br/>Fri 7/10 | TBD | TBD | — | — | |
+| <span class="day-badge">12</span><br/>Sat 7/11 | TBD | Dormy Inn Annex, Sapporo | — | — | Last night. Pack bike for flight. |
 
 <RouteMap
   client:load
@@ -83,44 +83,3 @@ import RouteMap from '../components/RouteMap.tsx';
   mapsUrl="https://www.google.com/maps/dir/Livemax+Resort+Shiretoko+Seafront,+24+Yagihamacho,+Rausu,+Menashi+District,+Hokkaido,+Japan/BPS+HOTELS,+Betsukaiasahicho,+Betsukai,+Notsuke+District,+Hokkaido,+Japan/@43.68,144.9,10z/data=!3m1!4b1!3e1"
 />
 
----
-
-### Route Planning Notes
-
-Daily distance mix:
-- **35-40 mile days** when staying at onsen hotels (early check-in, relaxation)
-- **50-70 mile days** when staying at cheap guest houses (flat/rolling terrain)
-- **45-50 mile days** in mountainous sections with significant climbing
-
-### Key Regions to Potentially Pass Through
-
-- **Shiretoko Peninsula**: UNESCO World Heritage wilderness (near Shibetsu starting point)
-- **Akan-Mashu National Park**: Volcanic caldera lakes, onsen
-- **Tokachi Plain**: Wide open agricultural flatlands
-- **Hidaka Mountains**: Horse ranching country
-- **Daisetsuzan National Park**: Sounkyo Onsen, mountain scenery
-- **Furano / Biei**: Patchwork flower fields, rolling hills (late June is lavender season)
-
-### Daily Distance Guidelines
-
-- **Minimum:** 35-40 miles — onsen hotel days, arrive early for check-in and relaxation
-- **Standard:** 50-70 miles — guest house days on flatter terrain
-- **Mountain days:** 45-50 miles max — when significant climbing is involved
-- **Upper limit:** ~70 miles — absolute max for a big day on flat/rolling terrain
-- **Day 1 (from Shibetsu):** 35-50 miles — first day after train from Sapporo
-- Hokkaido terrain is generally gentle compared to Honshu; passes exist but are not extreme
-- Wide road shoulders (designed for winter snow) make riding comfortable
-
----
-
-## Open Questions
-
-- [x] ~~Book first/last night hotel in Sapporo and confirm bike case storage~~ — Dormy Inn Annex, confirmed
-- [x] ~~Determine whether to bring own bike or rent~~ — bringing Disc Trucker
-- [ ] Finalize day-by-day route from Shibetsu back to Sapporo
-- [ ] Book guest houses and onsen hotels along route
-- [ ] Purchase Touring Mapple guidebook
-- [ ] Download GPS routes from HokkaidoWilds.org
-- [ ] Arrange Japan SIM/eSIM
-- [ ] Get bear bell in Sapporo on arrival
-- [ ] Buy rinko bag for train to Shibetsu

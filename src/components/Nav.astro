@@ -1,31 +1,82 @@
 ---
+interface Props {
+  year: string;
+}
+
+const { year } = Astro.props;
 const currentPath = Astro.url.pathname;
 
-const links = [
-  { href: '/', label: 'Itinerary' },
-  { href: '/flights', label: 'Flights' },
-  { href: '/bike', label: 'Bike' },
-  { href: '/gear', label: 'Gear' },
-  { href: '/resources', label: 'Resources' },
-  { href: '/tips', label: 'Tips' },
-];
+const tripLinks: Record<string, Array<{ href: string; label: string }>> = {
+  '2026': [
+    { href: '/2026/', label: 'Itinerary' },
+    { href: '/2026/planning', label: 'Planning' },
+    { href: '/2026/flights', label: 'Flights' },
+    { href: '/2026/bike', label: 'Bike' },
+    { href: '/2026/gear', label: 'Gear' },
+    { href: '/2026/resources', label: 'Resources' },
+    { href: '/2026/tips', label: 'Tips' },
+  ],
+  '2025': [
+    { href: '/2025/', label: 'Itinerary' },
+  ],
+};
+
+const links = tripLinks[year] ?? [];
+const activeLabel = links.find(({ href }) =>
+  currentPath === href || (href !== `/${year}/` && currentPath.startsWith(href))
+)?.label ?? links[0]?.label ?? '';
 ---
 
-<nav class="flex gap-6 overflow-x-auto scrollbar-hide pb-3">
-  {links.map(({ href, label }) => {
-    const isActive = currentPath === href || (href !== '/' && currentPath.startsWith(href));
-    return (
-      <a
-        href={href}
-        class:list={[
-          'py-2 text-sm font-medium border-b-2 transition-colors whitespace-nowrap',
-          isActive
-            ? 'text-accent border-accent'
-            : 'text-muted border-transparent hover:text-ink',
-        ]}
-      >
-        {label}
-      </a>
-    );
-  })}
-</nav>
+<div class="relative">
+  <details class="nav-dropdown">
+    <summary class="flex items-center gap-1.5 px-2 py-1 rounded text-gray-300 hover:text-white hover:bg-white/10 transition-colors text-sm font-medium cursor-pointer select-none">
+      {activeLabel}
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mt-px">
+        <polyline points="3,4.5 6,7.5 9,4.5" />
+      </svg>
+    </summary>
+    <div class="nav-panel">
+      {links.map(({ href, label }) => {
+        const isActive = currentPath === href || (href !== `/${year}/` && currentPath.startsWith(href));
+        return (
+          <a
+            href={href}
+            class:list={[
+              'block px-4 py-2 text-sm font-medium transition-colors',
+              isActive
+                ? 'text-accent'
+                : 'text-muted hover:text-ink',
+            ]}
+          >
+            {label}
+          </a>
+        );
+      })}
+    </div>
+  </details>
+</div>
+
+<script>
+  function initNavDropdown() {
+    const dropdown = document.querySelector('.nav-dropdown') as HTMLDetailsElement | null;
+    if (!dropdown) return;
+
+    // Close on link click
+    dropdown.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        dropdown.open = false;
+      });
+    });
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (dropdown.open && !dropdown.contains(e.target as Node)) {
+        dropdown.open = false;
+      }
+    });
+  }
+
+  // Run on initial load and after view transitions
+  initNavDropdown();
+  document.addEventListener('astro:page-load', initNavDropdown);
+</script>
