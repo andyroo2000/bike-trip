@@ -22,6 +22,7 @@ All notable changes to this project will be documented in this file.
 - Personalized gear list with actual kit (Garmin Edge 1050, Lems, Tevas, Alfort, Pocari Sweat)
 - Navigation: Ride With GPS routes on Garmin Edge 1050 + phone offline backup
 - Trimmed language/tips sections — removed obvious advice
+- Compact layout: prose-sm base, smaller headings, tighter spacing throughout
 
 ### Removed
 - SIM/eSIM references (using Google Fi)
