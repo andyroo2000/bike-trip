@@ -10,7 +10,7 @@
 }
 
 @layer base {
-  /* Prose typography overrides */
+  /* Prose typography overrides — color/decoration only (low specificity is fine) */
   .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     color: var(--color-accent);
     text-decoration: none;
@@ -24,24 +24,64 @@
     letter-spacing: -0.025em;
   }
 
-  .prose :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-    border-color: var(--color-border);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .prose :where(th):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-    font-weight: 600;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-muted);
-  }
-
   /* Keep climbing column on one line per elevation value */
   .prose :where(td:nth-child(5)):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     white-space: nowrap;
   }
+}
+
+/* Prose compact spacing — must be outside @layer to override typography plugin */
+.prose h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose h2 {
+  font-size: 1.15rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.prose h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.prose hr {
+  border-color: var(--color-border);
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose p {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.prose ul, .prose ol {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.prose li {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.prose th {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  padding: 0.4rem 0.5rem;
+}
+
+.prose td {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
 }
 
 /* Sticky header */
