@@ -6,12 +6,14 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Lodging bookings for Nights 1-6: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri, Shiretoko Yuhi no Ataruie (Utoro), Livemax Resort (Rausu), BPS HOTELs (Betsukai)
+- Lodging bookings for Nights 7-11: Hotel Mashu (Teshikaga), New Akan Hotel (Akanko Onsen), Hotel REUS Ashoro, Nukabira Kanko Hotel, Sounkyo Kanko Hotel
 - Booking source tracking (Agoda/Booking.com/Japanican) on each confirmed property
 
 ### Changed
 - Night 2 destination: Oehonke (Onneyu Onsen) replaces Shiobetsu Tsurutsuru Onsen (no availability)
 - Day 2/3 distances and elevation recalculated for new route via Google Maps
-- Route totals updated: ~505 mi, ↑~17,400, ↓~17,600
+- Day 11 route now ends at Sounkyo Onsen (was Kamikawa), Day 12 distance increased to 44.1 mi (was 28.4 mi)
+- Route totals updated: ~505 mi, ↑~17,000, ↓~17,700 (was ↑~17,400, ↓~17,600)
 - RouteMap addresses and OverviewMap waypoints updated to match confirmed bookings
 - 2025 page title updated to "Itinerary — Hokkaido 2025" (was "2025 — Japan & Korea")
 
