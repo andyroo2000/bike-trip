@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+- Hotel photos on lodging page fetched via Google Places API, stored locally, displayed as banner image in each collapsible card
+- `scripts/fetch-hotel-images.mjs` one-time fetch script for hotel photos
+
 ### Changed
 - Planning page: closed route and lodging open questions; removed resolved items; only rinko bag remains open
 
