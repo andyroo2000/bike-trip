@@ -1,15 +1,35 @@
 import RouteMap from '../../components/RouteMap.tsx';
 import OverviewMap from '../../components/OverviewMap.tsx';
+import RouteTable from '../../components/RouteTable.tsx';
+import Collapsible from '../../components/Collapsible.tsx';
+
+export const rows = [
+  { day: 1, date: "Tue 6/30", from: "Asahikawa Station", to: "ホテル雲井 (Hotel Kumoi, Sounkyo Onsen)", miles: "44.1", climbUp: "2,461", climbDown: "787", notes: "Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel." },
+  { day: 2, date: "Wed 7/1", from: "Hotel Kumoi, Sounkyo Onsen", to: "Oehonke (温根湯温泉, Onneyu Onsen)", miles: "37.7", climbUp: "1,421", climbDown: "2,569", notes: "Via 国道39号. Over the pass, net downhill. Onsen ryokan." },
+  { day: 3, date: "Thu 7/2", from: "Oehonke, Onneyu Onsen", to: "Dormy Inn Abashiri", miles: "52.4", climbUp: "1,027", climbDown: "1,919", notes: "Via 国道39号 through Kitami. Net downhill to the coast. Onsen hotel." },
+  { day: 4, date: "Fri 7/3", from: "Dormy Inn Abashiri", to: "Shiretoko Yuhi no Ataruie Onsen Hostel, Utoro", miles: "50.6", climbUp: "1,690", climbDown: "1,509", notes: "Via 国道334号. Flat to Shari, then rolling hills into Shiretoko Peninsula. Onsen hostel, ocean view." },
+  { day: 5, date: "Sat 7/4", from: "Shiretoko Yuhi no Ataruie", to: "Livemax Resort Shiretoko Seafront (south of Rausu)", miles: "~23.5", climbUp: "~2,360", climbDown: "~2,360", notes: "Via 国道334号 over Shiretoko Pass (738m), then 国道335号 south. Mountain day. Onsen hotel." },
+  { day: 6, date: "Sun 7/5", from: "Livemax Resort", to: "BPS Hotels, Betsukai (別海)", miles: "52.6", climbUp: "1,201", climbDown: "1,148", notes: "Via 国道335号. Flat coast through Shibetsu/Nakashibetsu, then south to Betsukai." },
+  { day: 7, date: "Mon 7/6", from: "BPS HOTELs, Betsukai", to: "Hotel Mashu, Teshikaga", miles: "37.9", climbUp: "~800", climbDown: "~650", notes: "Via 国道243号. Flat dairy country southwest toward Akan-Mashu." },
+  { day: 8, date: "Tue 7/7", from: "Hotel Mashu, Teshikaga", to: "New Akan Hotel, Akanko Onsen", miles: "30.6", climbUp: "~1,500", climbDown: "~1,200", notes: "Via 国道241号 through Akan-Mashu NP. Short onsen day. Caldera lakes, volcanic landscape." },
+  { day: 9, date: "Wed 7/8", from: "New Akan Hotel, Akanko Onsen", to: "Hotel REUS Ashoro", miles: "~60", climbUp: "~1,200", climbDown: "~1,800", notes: "Via 国道241号 southwest. Net downhill out of the park." },
+  { day: 10, date: "Thu 7/9", from: "Hotel REUS Ashoro", to: "Nukabira Kanko Hotel", miles: "~35", climbUp: "~1,500", climbDown: "~500", notes: "Via 国道241号 northwest. Uphill into mountain onsen. Short onsen day." },
+  { day: 11, date: "Fri 7/10", from: "Nukabira Kanko Hotel", to: "Sounkyo Kanko Hotel, Sounkyo Onsen", miles: "~35", climbUp: "~2,000", climbDown: "~2,000", notes: "Via 国道273号 over 三国峠 (Mikuni Pass, 1,139m). Mountain day. Onsen hotel." },
+  { day: 12, date: "Sat 7/11", from: "Sounkyo Kanko Hotel", to: "Asahikawa Station", miles: "44.1", climbUp: "~800", climbDown: "~2,500", notes: "Via 国道39号. Day 1 in reverse, net downhill. Train to Sapporo (~1.5 hrs). Pack bike. Dormy Inn Annex." },
+  { type: 'total', to: 'Totals', miles: "~505", climbUp: "~17,000", climbDown: "~17,700" },
+];
 
 # Itinerary
 
 ## Overview
 
+<Collapsible summary="Overview">
 - **Route:** Train from Sapporo to Asahikawa, then ride east through Daisetsuzan and along the Okhotsk coast, returning to Sapporo
 - **Mode:** Self-supported cycle touring (no camping)
 - **Season:** Late June through Early July
 - **Accommodation:** Mix of cheap guest houses (long riding days) and onsen hotels (shorter ~35-40 mile days to allow early check-in and relaxation)
 - **First/last night:** Dormy Inn Annex, Sapporo (confirmed bike case storage)
+</Collapsible>
 
 ---
 
@@ -21,21 +41,7 @@ import OverviewMap from '../../components/OverviewMap.tsx';
 
 ### Confirmed Route
 
-| Day | From | To | Miles | Climbing | Notes |
-|-----|------|----|-------|----------|-------|
-| <span class="day-badge">1</span><br/>Tue 6/30 | Asahikawa Station | ホテル雲井 (Hotel Kumoi, Sounkyo Onsen) | 44.1 | <span class="elev-up">↑</span> 2,461<br/><span class="elev-down">↓</span> 787 | Via 国道273号/国道39号. Steady uphill into Sounkyo gorge. Onsen hotel. |
-| <span class="day-badge">2</span><br/>Wed 7/1 | Hotel Kumoi, Sounkyo Onsen | Oehonke (温根湯温泉, Onneyu Onsen) | 37.7 | <span class="elev-up">↑</span> 1,421<br/><span class="elev-down">↓</span> 2,569 | Via 国道39号. Over the pass, net downhill. Onsen ryokan. |
-| <span class="day-badge">3</span><br/>Thu 7/2 | Oehonke, Onneyu Onsen | Dormy Inn Abashiri | 52.4 | <span class="elev-up">↑</span> 1,027<br/><span class="elev-down">↓</span> 1,919 | Via 国道39号 through Kitami. Net downhill to the coast. Onsen hotel. |
-| <span class="day-badge">4</span><br/>Fri 7/3 | Dormy Inn Abashiri | Shiretoko Yuhi no Ataruie Onsen Hostel, Utoro | 50.6 | <span class="elev-up">↑</span> 1,690<br/><span class="elev-down">↓</span> 1,509 | Via 国道334号. Flat to Shari, then rolling hills into Shiretoko Peninsula. Onsen hostel, ocean view. |
-| <span class="day-badge">5</span><br/>Sat 7/4 | Shiretoko Yuhi no Ataruie | Livemax Resort Shiretoko Seafront (south of Rausu) | ~23.5 | <span class="elev-up">↑</span> ~2,360<br/><span class="elev-down">↓</span> ~2,360 | Via 国道334号 over Shiretoko Pass (738m), then 国道335号 south. Mountain day. Onsen hotel. |
-| <span class="day-badge">6</span><br/>Sun 7/5 | Livemax Resort | BPS Hotels, Betsukai (別海) | 52.6 | <span class="elev-up">↑</span> 1,201<br/><span class="elev-down">↓</span> 1,148 | Via 国道335号. Flat coast through Shibetsu/Nakashibetsu, then south to Betsukai. |
-| <span class="day-badge">7</span><br/>Mon 7/6 | BPS HOTELs, Betsukai | Hotel Mashu, Teshikaga | 37.9 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~650 | Via 国道243号. Flat dairy country southwest toward Akan-Mashu. |
-| <span class="day-badge">8</span><br/>Tue 7/7 | Hotel Mashu, Teshikaga | New Akan Hotel, Akanko Onsen | 30.6 | <span class="elev-up">↑</span> ~1,500<br/><span class="elev-down">↓</span> ~1,200 | Via 国道241号 through Akan-Mashu NP. Short onsen day. Caldera lakes, volcanic landscape. |
-| <span class="day-badge">9</span><br/>Wed 7/8 | New Akan Hotel, Akanko Onsen | Hotel REUS Ashoro | ~60 | <span class="elev-up">↑</span> ~1,200<br/><span class="elev-down">↓</span> ~1,800 | Via 国道241号 southwest. Net downhill out of the park. |
-| <span class="day-badge">10</span><br/>Thu 7/9 | Hotel REUS Ashoro | Nukabira Kanko Hotel | ~35 | <span class="elev-up">↑</span> ~1,500<br/><span class="elev-down">↓</span> ~500 | Via 国道241号 northwest. Uphill into mountain onsen. Short onsen day. |
-| <span class="day-badge">11</span><br/>Fri 7/10 | Nukabira Kanko Hotel | Sounkyo Kanko Hotel, Sounkyo Onsen | ~35 | <span class="elev-up">↑</span> ~2,000<br/><span class="elev-down">↓</span> ~2,000 | Via 国道273号 over 三国峠 (Mikuni Pass, 1,139m). Mountain day. Onsen hotel. |
-| <span class="day-badge">12</span><br/>Sat 7/11 | Sounkyo Kanko Hotel | Asahikawa Station | 44.1 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~2,500 | Via 国道39号. Day 1 in reverse, net downhill. Train to Sapporo (~1.5 hrs). Pack bike. Dormy Inn Annex. |
-| | | **Totals** | **~505** | <span class="elev-up">↑</span> **~17,000**<br/><span class="elev-down">↓</span> **~17,700** | |
+<RouteTable rows={rows} />
 
 <RouteMap
   client:load
@@ -157,4 +163,3 @@ import OverviewMap from '../../components/OverviewMap.tsx';
   ]}
   mapsUrl="https://www.google.com/maps/dir/Asahikawa+Station,+Hokkaido/Sounkyo,+Kamikawa,+Hokkaido/Abashiri,+Hokkaido/Utoro,+Shari,+Hokkaido/Rausu,+Hokkaido/Betsukai,+Hokkaido/Teshikaga,+Hokkaido/Akanko+Onsen,+Kushiro,+Hokkaido/Ashoro,+Hokkaido/Nukabira,+Kamishihoro,+Hokkaido/Sounkyo,+Kamikawa,+Hokkaido/Asahikawa+Station,+Hokkaido/@43.5,143.2,8z/data=!3e0"
 />
-

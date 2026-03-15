@@ -1,14 +1,35 @@
 import RouteMap from '../../components/RouteMap.tsx';
 import OverviewMap from '../../components/OverviewMap.tsx';
+import RouteTable from '../../components/RouteTable.tsx';
+import Collapsible from '../../components/Collapsible.tsx';
+
+export const rows = [
+  { day: 1, date: "Mon 6/30", from: "Fukagawa", to: "Rumoi (Hotel New White House)", miles: "37", climbUp: "~1,200", climbDown: "~1,200", notes: "Train from Sapporo to Fukagawa. Sea of Japan coast." },
+  { day: 2, date: "Tue 7/1", from: "Rumoi", to: "Haboro (Fujiya Ryokan)", miles: "37", climbUp: "~800", climbDown: "~800", notes: "Coastal road north. Ryokan with breakfast and dinner." },
+  { day: 3, date: "Wed 7/2", from: "Haboro", to: "Teshio (Teshio Onsen Yubae)", miles: "46", climbUp: "~600", climbDown: "~600", notes: "Continue up the coast. Onsen hotel." },
+  { day: 4, date: "Thu 7/3", from: "Teshio", to: "Wakkanai (Dormy Inn Wakkanai)", miles: "46", climbUp: "~500", climbDown: "~500", notes: "Northernmost city in Japan. Dormy Inn onsen." },
+  { type: 'ferry', to: "Ferry to Rishiri Island", notes: "3 nights at Rishiri Antique Inn (7/4–7/7)." },
+  { day: 5, date: "Mon 7/7", from: "Wakkanai", to: "Sarafutsu", miles: "46", climbUp: "~800", climbDown: "~800", notes: "Ferry back from Rishiri, then east along the coast." },
+  { day: 6, date: "Tue 7/8", from: "Sarafutsu", to: "Esashi (Hotel New Kohrin)", miles: "44", climbUp: "~600", climbDown: "~600", notes: "Okhotsk coast. Breakfast and dinner included." },
+  { day: 7, date: "Wed 7/9", from: "Esashi", to: "Omu (Okhotsk Onsen Hotel Cape Sunrise)", miles: "56", climbUp: "~1,000", climbDown: "~1,000", notes: "Long coastal day. Onsen hotel with breakfast and dinner." },
+  { day: 8, date: "Thu 7/10", from: "Omu", to: "Shimokawa (Yuinomori)", miles: "48", climbUp: "~1,400", climbDown: "~800", notes: "Turn inland from the coast. Guest house." },
+  { day: 9, date: "Fri 7/11", from: "Shimokawa", to: "Asahikawa (Dormy Inn Asahikawa)", miles: "68", climbUp: "~1,000", climbDown: "~1,600", notes: "Longest day. Net downhill into Asahikawa." },
+  { day: 10, date: "Sat 7/12", from: "Asahikawa", to: "Furano (Frontier Furanui Spa)", miles: "29", climbUp: "~400", climbDown: "~600", notes: "Short day. Lavender fields in bloom. Japanese-style room." },
+  { day: 11, date: "Sun 7/13", from: "Furano", to: "Kamisunagawa (Panke no Yu Hot Spring)", miles: "42", climbUp: "~800", climbDown: "~1,200", notes: "Onsen hotel with breakfast and dinner." },
+  { day: 12, date: "Mon 7/14", from: "Kamisunagawa", to: "Sapporo (The B – Sapporo)", miles: "57", climbUp: "~600", climbDown: "~1,000", notes: "Final ride back to Sapporo." },
+  { type: 'total', to: 'Totals', miles: "556", climbUp: "~9,700", climbDown: "~10,700" },
+];
 
 # Itinerary
 
 ## Overview
 
+<Collapsible summary="Overview">
 - **Route:** Train from Sapporo to Fukagawa, ride north along the Sea of Japan coast to Wakkanai, ferry to Rishiri Island, then south along the Okhotsk coast, inland to Asahikawa, and back to Sapporo via Furano
 - **Mode:** Self-supported cycle touring (no camping)
 - **Season:** Late June through mid-July 2025
 - **Accommodation:** Mix of guest houses, ryokan, onsen hotels, and Dormy Inns
+</Collapsible>
 
 ---
 
@@ -20,22 +41,7 @@ import OverviewMap from '../../components/OverviewMap.tsx';
 
 ### Route Table
 
-| Day | From | To | Miles | Climbing | Notes |
-|-----|------|----|-------|----------|-------|
-| <span class="day-badge">1</span><br/>Mon 6/30 | Fukagawa | Rumoi (Hotel New White House) | 37 | <span class="elev-up">↑</span> ~1,200<br/><span class="elev-down">↓</span> ~1,200 | Train from Sapporo to Fukagawa. Sea of Japan coast. |
-| <span class="day-badge">2</span><br/>Tue 7/1 | Rumoi | Haboro (Fujiya Ryokan) | 37 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~800 | Coastal road north. Ryokan with breakfast and dinner. |
-| <span class="day-badge">3</span><br/>Wed 7/2 | Haboro | Teshio (Teshio Onsen Yubae) | 46 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~600 | Continue up the coast. Onsen hotel. |
-| <span class="day-badge">4</span><br/>Thu 7/3 | Teshio | Wakkanai (Dormy Inn Wakkanai) | 46 | <span class="elev-up">↑</span> ~500<br/><span class="elev-down">↓</span> ~500 | Northernmost city in Japan. Dormy Inn onsen. |
-| | | **Ferry to Rishiri Island** | | | 3 nights at Rishiri Antique Inn (7/4–7/7). |
-| <span class="day-badge">5</span><br/>Mon 7/7 | Wakkanai | Sarafutsu | 46 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~800 | Ferry back from Rishiri, then east along the coast. |
-| <span class="day-badge">6</span><br/>Tue 7/8 | Sarafutsu | Esashi (Hotel New Kohrin) | 44 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~600 | Okhotsk coast. Breakfast and dinner included. |
-| <span class="day-badge">7</span><br/>Wed 7/9 | Esashi | Omu (Okhotsk Onsen Hotel Cape Sunrise) | 56 | <span class="elev-up">↑</span> ~1,000<br/><span class="elev-down">↓</span> ~1,000 | Long coastal day. Onsen hotel with breakfast and dinner. |
-| <span class="day-badge">8</span><br/>Thu 7/10 | Omu | Shimokawa (Yuinomori) | 48 | <span class="elev-up">↑</span> ~1,400<br/><span class="elev-down">↓</span> ~800 | Turn inland from the coast. Guest house. |
-| <span class="day-badge">9</span><br/>Fri 7/11 | Shimokawa | Asahikawa (Dormy Inn Asahikawa) | 68 | <span class="elev-up">↑</span> ~1,000<br/><span class="elev-down">↓</span> ~1,600 | Longest day. Net downhill into Asahikawa. |
-| <span class="day-badge">10</span><br/>Sat 7/12 | Asahikawa | Furano (Frontier Furanui Spa) | 29 | <span class="elev-up">↑</span> ~400<br/><span class="elev-down">↓</span> ~600 | Short day. Lavender fields in bloom. Japanese-style room. |
-| <span class="day-badge">11</span><br/>Sun 7/13 | Furano | Kamisunagawa (Panke no Yu Hot Spring) | 42 | <span class="elev-up">↑</span> ~800<br/><span class="elev-down">↓</span> ~1,200 | Onsen hotel with breakfast and dinner. |
-| <span class="day-badge">12</span><br/>Mon 7/14 | Kamisunagawa | Sapporo (The B – Sapporo) | 57 | <span class="elev-up">↑</span> ~600<br/><span class="elev-down">↓</span> ~1,000 | Final ride back to Sapporo. |
-| | | **Totals** | **556** | <span class="elev-up">↑</span> **~9,700**<br/><span class="elev-down">↓</span> **~10,700** | |
+<RouteTable rows={rows} />
 
 <RouteMap
   client:load
