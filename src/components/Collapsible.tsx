@@ -6,7 +6,7 @@ interface CollapsibleProps {
   defaultOpen?: boolean;
 }
 
-export default function Collapsible({ summary, children, defaultOpen = true }: CollapsibleProps) {
+export default function Collapsible({ summary, children, defaultOpen = false }: CollapsibleProps) {
   return (
     <details className="collapsible-section not-prose" open={defaultOpen || undefined}>
       <summary>
