@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Removed
+- Summary table and confirmation details from top of flights page
+
 ### Added
 - `RouteTable` component with desktop table view and mobile card-per-day layout (no more horizontal scrolling on mobile)
 - `Collapsible` component using native `<details>/<summary>` for zero-JS accordion behavior
