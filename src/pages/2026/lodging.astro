@@ -11,44 +11,67 @@ import { Content } from '../../content/2026/lodging.mdx';
 
 <!-- Lightbox -->
 <div id="lightbox" class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true">
-  <button id="lightbox-close" class="absolute top-4 right-5 text-white text-4xl leading-none opacity-80 hover:opacity-100">&times;</button>
+  <button id="lightbox-close" class="absolute top-4 right-5 text-white text-4xl leading-none opacity-70 hover:opacity-100 z-10">&times;</button>
+  <button id="lightbox-prev" class="absolute left-3 top-1/2 -translate-y-1/2 text-white text-4xl leading-none opacity-70 hover:opacity-100 px-2">&#8249;</button>
+  <button id="lightbox-next" class="absolute right-3 top-1/2 -translate-y-1/2 text-white text-4xl leading-none opacity-70 hover:opacity-100 px-2">&#8250;</button>
   <img id="lightbox-img" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
+  <div id="lightbox-counter" class="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/70 text-sm"></div>
 </div>
 
 <script>
-  const lightbox = document.getElementById('lightbox')!;
-  const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement;
-  const closeBtn = document.getElementById('lightbox-close')!;
+  const lightbox   = document.getElementById('lightbox')!;
+  const img        = document.getElementById('lightbox-img') as HTMLImageElement;
+  const counter    = document.getElementById('lightbox-counter')!;
+  const closeBtn   = document.getElementById('lightbox-close')!;
+  const prevBtn    = document.getElementById('lightbox-prev')!;
+  const nextBtn    = document.getElementById('lightbox-next')!;
 
-  function openLightbox(src: string, alt: string) {
-    lightboxImg.src = src;
-    lightboxImg.alt = alt;
+  let images: string[] = [];
+  let index = 0;
+
+  function show(i: number) {
+    index = (i + images.length) % images.length;
+    img.src = images[index];
+    counter.textContent = images.length > 1 ? `${index + 1} / ${images.length}` : '';
+    prevBtn.style.display = images.length > 1 ? '' : 'none';
+    nextBtn.style.display = images.length > 1 ? '' : 'none';
+  }
+
+  function open(imgs: string[], startIndex: number) {
+    images = imgs;
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
     document.body.style.overflow = 'hidden';
+    show(startIndex);
   }
 
-  function closeLightbox() {
+  function close() {
     lightbox.classList.add('hidden');
     lightbox.classList.remove('flex');
-    lightboxImg.src = '';
     document.body.style.overflow = '';
+    img.src = '';
+    images = [];
   }
 
+  // Click on any hotel photo — gather all sibling photos from the same card
   document.addEventListener('click', (e) => {
     const target = e.target as HTMLElement;
-    if (target.classList.contains('hotel-photo')) {
-      openLightbox((target as HTMLImageElement).src, target.alt);
-    }
+    if (!target.classList.contains('hotel-photo')) return;
+    const card = target.closest('details');
+    const siblings = Array.from(card?.querySelectorAll('.hotel-photo') ?? []) as HTMLImageElement[];
+    const imgs = siblings.map(el => el.src);
+    const i = siblings.indexOf(target as HTMLImageElement);
+    open(imgs, i);
   });
 
-  closeBtn.addEventListener('click', closeLightbox);
-
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) closeLightbox();
-  });
-
+  prevBtn.addEventListener('click', () => show(index - 1));
+  nextBtn.addEventListener('click', () => show(index + 1));
+  closeBtn.addEventListener('click', close);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) close(); });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeLightbox();
+    if (!images.length) return;
+    if (e.key === 'Escape')     close();
+    if (e.key === 'ArrowLeft')  show(index - 1);
+    if (e.key === 'ArrowRight') show(index + 1);
   });
 </script>
