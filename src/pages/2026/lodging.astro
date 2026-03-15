@@ -8,3 +8,47 @@ import { Content } from '../../content/2026/lodging.mdx';
     <Content />
   </article>
 </BaseLayout>
+
+<!-- Lightbox -->
+<div id="lightbox" class="fixed inset-0 bg-black/90 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true">
+  <button id="lightbox-close" class="absolute top-4 right-5 text-white text-4xl leading-none opacity-80 hover:opacity-100">&times;</button>
+  <img id="lightbox-img" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
+</div>
+
+<script>
+  const lightbox = document.getElementById('lightbox')!;
+  const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement;
+  const closeBtn = document.getElementById('lightbox-close')!;
+
+  function openLightbox(src: string, alt: string) {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt;
+    lightbox.classList.remove('hidden');
+    lightbox.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.add('hidden');
+    lightbox.classList.remove('flex');
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (target.classList.contains('hotel-photo')) {
+      openLightbox((target as HTMLImageElement).src, target.alt);
+    }
+  });
+
+  closeBtn.addEventListener('click', closeLightbox);
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>

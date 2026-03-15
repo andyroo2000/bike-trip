@@ -17,7 +17,7 @@ export default function Collapsible({ summary, children, defaultOpen = false, im
         </svg>
       </summary>
       {image && (
-        <img src={image} alt={summary} className="w-full h-48 object-cover" />
+        <img src={image} alt={summary} className="hotel-photo w-full h-48 object-cover cursor-pointer" />
       )}
       <div className="collapsible-body prose prose-sm max-w-none">
         {children}
