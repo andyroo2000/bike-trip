@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Added
+- `deploy.sh` script for deploying to Cloudflare Pages (`bike-trip.pages.dev`)
 - Lodging bookings for Nights 1-6: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri, Shiretoko Yuhi no Ataruie (Utoro), Livemax Resort (Rausu), BPS HOTELs (Betsukai)
 - Lodging bookings for Nights 7-11: Hotel Mashu (Teshikaga), New Akan Hotel (Akanko Onsen), Hotel REUS Ashoro, Nukabira Kanko Hotel, Sounkyo Kanko Hotel
 - Booking source tracking (Agoda/Booking.com/Japanican) on each confirmed property
