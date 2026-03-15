@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Changed
+- Planning page: closed route and lodging open questions; removed resolved items; only rinko bag remains open
+
 ### Removed
 - Summary table and confirmation details from top of flights page
 
