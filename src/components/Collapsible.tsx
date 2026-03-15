@@ -4,9 +4,10 @@ interface CollapsibleProps {
   summary: string;
   children: ReactNode;
   defaultOpen?: boolean;
+  image?: string;
 }
 
-export default function Collapsible({ summary, children, defaultOpen = false }: CollapsibleProps) {
+export default function Collapsible({ summary, children, defaultOpen = false, image }: CollapsibleProps) {
   return (
     <details className="collapsible-section not-prose" open={defaultOpen || undefined}>
       <summary>
@@ -15,6 +16,9 @@ export default function Collapsible({ summary, children, defaultOpen = false }: 
           <polyline points="6 9 12 15 18 9"/>
         </svg>
       </summary>
+      {image && (
+        <img src={image} alt={summary} className="w-full h-48 object-cover" />
+      )}
       <div className="collapsible-body prose prose-sm max-w-none">
         {children}
       </div>
