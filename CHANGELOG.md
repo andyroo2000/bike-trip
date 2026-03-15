@@ -5,7 +5,14 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Added
+- `RouteTable` component with desktop table view and mobile card-per-day layout (no more horizontal scrolling on mobile)
+- `Collapsible` component using native `<details>/<summary>` for zero-JS accordion behavior
 - `deploy.sh` script for deploying to Cloudflare Pages (`bike-trip.pages.dev`)
+
+### Changed
+- Route maps (RouteMap, OverviewMap) now render as collapsible sections, collapsed by default to reduce scroll on itinerary pages
+- Overview section on itinerary pages is now collapsible (open by default)
+- All lodging entries on the lodging page are now collapsible (open by default)
 - Lodging bookings for Nights 1-6: Hotel Kumoi (Sounkyo), Oehonke (Onneyu Onsen), Dormy Inn Abashiri, Shiretoko Yuhi no Ataruie (Utoro), Livemax Resort (Rausu), BPS HOTELs (Betsukai)
 - Lodging bookings for Nights 7-11: Hotel Mashu (Teshikaga), New Akan Hotel (Akanko Onsen), Hotel REUS Ashoro, Nukabira Kanko Hotel, Sounkyo Kanko Hotel
 - Booking source tracking (Agoda/Booking.com/Japanican) on each confirmed property
