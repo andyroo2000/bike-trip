@@ -74,4 +74,14 @@ import { Content } from '../../content/2026/lodging.mdx';
     if (e.key === 'ArrowLeft')  show(index - 1);
     if (e.key === 'ArrowRight') show(index + 1);
   });
+
+  // Touch swipe support
+  let touchStartX = 0;
+  lightbox.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  lightbox.addEventListener('touchend', (e) => {
+    if (!images.length) return;
+    const delta = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(delta) < 40) return;
+    show(delta < 0 ? index + 1 : index - 1);
+  }, { passive: true });
 </script>
