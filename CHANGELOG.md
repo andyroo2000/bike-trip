@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## Unreleased
 
 ### Added
+- Flight departure and arrival times for each segment on the flights page
 - Touch swipe gesture support in lightbox for mobile photo navigation (swipe left/right)
 - Lightbox overlay for hotel photos — click any banner image to view full-screen; close with Escape, × button, or clicking outside
 - Hotel photos on lodging page fetched via Google Places API, stored locally, displayed as banner image in each collapsible card
